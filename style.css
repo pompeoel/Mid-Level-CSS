@@ -1,0 +1,147 @@
+/*CSS Challenge file written by E. Pompeo*/
+
+/*Import my font selection from the Google host*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+    background-color: #cccccc
+}
+
+/*I tried to make all of my HEX colors as close to the screenshot as possible!*/
+.card {
+    background-color: white;
+    border-radius: 3px;
+    font-family: 'Open Sans', Sans-Serif;
+    font-size: 15px;
+    color: #787878;
+    text-align: justify;
+    margin: .75em;
+    padding: 1em;
+    box-shadow: 2px #000000;
+    position: relative;
+    -moz-box-shadow: 2px #000000;
+    -webkit-box-shadow: 2px;
+}
+.card h1 {color: red;
+            font-family: 'Montserrat', cursive;
+            font-size: 24px;
+            margin: 0.5em;
+}
+
+.card h2 {font-family: 'Montserrat', cursive;
+        font-size: 19px;
+}
+
+.card td {
+}
+
+.text-center {text-align: center;}
+
+.text-center p {text-align: justify;
+                padding: 0;
+}
+
+/* This is the code for my Button!*/
+.btn-danger {
+    background-color: red;
+    height: 10em;
+    color: white;
+    border-radius: 5px;
+    padding: .75em;
+    text-decoration: none;
+    margin-bottom: 5em;
+    position: static;
+}
+
+i {
+    height: 1.5em;
+}
+
+img {margin: 0em;}
+
+.clear {
+    clear: both;
+}
+
+.list-inline {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    margin: 12px;
+}
+
+a {
+    color: #cccccc;
+    font-size: 16px;
+    font: 'Montserrat', cursive;
+    text-decoration: none;
+}
+
+h2 ul {
+    text-align: right;
+    position: static;
+    position: bottom;
+}
+
+#wrapper {
+    background-color: #c0c0c0; 
+    margin: auto;
+    padding: 1%;
+}
+
+#left-container {
+    width: 36%;
+    float: left;
+    line-height: 1.5em;
+
+    clear: left;
+}
+
+#right-container {
+    width: 58.5%;
+    float: right;
+    height: 30%;
+    margin-bottom: 0px;
+}
+
+#img-profile {
+    border-radius: 100%;
+    border: 3px solid #cccccc;
+    height: 6em;
+}
+
+#movies img {
+    height: 7em;
+    margin: .5em;
+    margin-right: .8em
+}
+
+#share{
+    list-style: none;
+    display: inline-block;
+}
+
+#footer{
+   padding: 1em;
+   height: 10em;
+   margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 95%;
+    height: 120px;
+   visibility: auto;
+   clear: both;
+}
+
+#footer ul{
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+}
